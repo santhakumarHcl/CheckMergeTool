@@ -385,6 +385,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1162611923399567325, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7687687436417007348}
+    - targetCorrespondingSourceObject: {fileID: 1162611923399567325, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7687687436417007349}
   m_SourcePrefab: {fileID: 100100000, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
 --- !u!1 &7687687436417007347 stripped
 GameObject:
@@ -403,3 +406,11 @@ Halo:
     serializedVersion: 2
     rgba: 4286611584
   m_Size: 5
+--- !u!81 &7687687436417007349
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687687436417007347}
+  m_Enabled: 1
