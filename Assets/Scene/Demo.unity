@@ -372,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 4558269318731639998, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3817196a3d1514f09bd0511d54ad3480, type: 2}
+      objectReference: {fileID: 2100000, guid: 282fe8ce32973438bbb267f3f2e12b5c, type: 2}
     - target: {fileID: 4558269318731639998, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -394,9 +394,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1162611923399567325, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7687687436417007351}
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 1162611923399567325, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7687687436417007352}
+=======
+>>>>>>> Enemy
   m_SourcePrefab: {fileID: 100100000, guid: e9fd44d8ce2e84c4399bd847f2f8a20b, type: 3}
 --- !u!1 &7687687436417007347 stripped
 GameObject:
@@ -468,13 +471,19 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+<<<<<<< HEAD
 --- !u!114 &7687687436417007351
 MonoBehaviour:
+=======
+--- !u!192 &7687687436417007351
+OcclusionArea:
+>>>>>>> Enemy
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7687687436417007347}
+<<<<<<< HEAD
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 265b2e63272b44c06a677e41d8c5b1f8, type: 3}
@@ -497,3 +506,9 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
+=======
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_IsViewVolume: 1
+>>>>>>> Enemy
