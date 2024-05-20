@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 20809587}
   - component: {fileID: 20809591}
   - component: {fileID: 20809592}
+  - component: {fileID: 20809593}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -340,6 +341,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!320 &20809593
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20809586}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 0}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &686324600
 GameObject:
   m_ObjectHideFlags: 0
