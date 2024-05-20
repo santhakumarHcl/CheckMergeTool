@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 20809588}
   - component: {fileID: 20809591}
   - component: {fileID: 20809592}
+  - component: {fileID: 20809593}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -256,6 +257,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 5.617869e-16, z: -0.00000008940697}
+--- !u!122 &20809593
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20809586}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &536810907
 GameObject:
   m_ObjectHideFlags: 0
